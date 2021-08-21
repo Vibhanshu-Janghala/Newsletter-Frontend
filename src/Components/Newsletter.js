@@ -23,8 +23,9 @@ const Newsletter = (props) => {
             <div className="flex items-center justify-center pb-6 md:py-0 md:w-1/2 md:border-b-8 border-gray-700">
                 {props.formState === "" ? <form onSubmit={handleSubmit}>
                         <div className="flex flex-col rounded-lg overflow-hidden sm:flex-row">
+
                             <input
-                                className="py-3 px-5 bg-gray-200 text-gray-800 border-gray-300 border-2 outline-none placeholder-gray-500 focus:bg-gray-100"
+                                className="py-3 px-5 w-rox bg-gray-200 text-gray-800 border-gray-300 border-2 outline-none placeholder-gray-500 focus:bg-gray-100"
                                 type="text" name="email" placeholder="Enter your email"
                                 onChange={handleChange}
                             />
